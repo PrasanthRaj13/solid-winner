@@ -1,0 +1,8 @@
+# Coding
+c_name = "Ramesh Suresh Mohit"
+name = c_name.split(" ")
+print(name)
+age = [25,22,26]
+data = zip(name,age)
+for i in zip(name,age):
+  print(i)
