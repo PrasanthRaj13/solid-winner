@@ -1,0 +1,12 @@
+# coding
+paracetamol = float(35 * 2)
+print("Total cost of paracetamol :",paracetamol)
+azithromycin = float(49 * 3)
+print("Total cost of azithromynic :",azithromycin)
+vitamin_C = float(33 * 5)
+print("Total cost of vitamin_c :",vitamin_C)
+patient_gave = 2000
+total = paracetamol + azithromycin + vitamin_C
+print(" Total cost of all medicines : " , total , "/-")
+refund_amount = patient_gave - total
+print("Change for the given amount : " , refund_amount , "/-")
