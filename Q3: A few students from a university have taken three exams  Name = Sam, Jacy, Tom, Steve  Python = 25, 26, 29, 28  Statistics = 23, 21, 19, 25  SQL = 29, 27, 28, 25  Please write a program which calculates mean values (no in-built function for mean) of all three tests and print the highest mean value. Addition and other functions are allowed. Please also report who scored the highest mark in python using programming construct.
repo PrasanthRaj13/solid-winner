@@ -1,0 +1,28 @@
+# coding
+Python = [25, 26, 29, 28]
+p_total = sum(Python)
+p_mean = sum(Python) / len(Python)
+print("mean of Python :" , p_mean)
+
+Statistics = [23, 21, 19, 25]
+stat_total = sum(Statistics)
+stat_mean = sum(Statistics) / len(Statistics)
+print("mean of Statistcs :" , stat_mean)
+
+SQL = [29, 27, 28, 25]
+sql_total = sum(SQL)
+sql_mean = sum(SQL) / len(SQL)
+print("mean of SQL : " , sql_mean)
+
+three_means = [p_mean,stat_mean,sql_mean]
+high_mean = max(three_means)
+print(three_means)
+print("highest mean value of three test is :" , high_mean)
+
+student = ["Sam","Jacy","Tom","Steve"]
+python = [25, 26, 29, 28]
+high_score = zip(student,python)
+for i in high_score:
+  print(i)
+high = max(zip(student,python))
+print('Highest marks in Python :',high)
