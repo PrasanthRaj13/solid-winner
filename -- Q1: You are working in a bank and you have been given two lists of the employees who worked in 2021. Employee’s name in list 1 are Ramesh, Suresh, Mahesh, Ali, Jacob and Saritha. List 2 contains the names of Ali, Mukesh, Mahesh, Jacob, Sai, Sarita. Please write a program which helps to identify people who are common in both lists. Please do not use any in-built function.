@@ -1,0 +1,8 @@
+emp_1 = ['Ramesh','Suresh','Mahesh','Ali','Jacob','Saritha']
+emp_2 = ['Ali','Mukesh','Mahesh','Jacob','Sai','Sarita']
+common_employees = []
+for  i in emp_1:
+  if i in emp_2:
+    common_employees.append(i)
+
+print("Common employees are :" , common_employees)
