@@ -1,0 +1,14 @@
+ Coding
+sentence = input("Enter the sentence : ")
+sentecne = sentence.casefold()
+
+vowels = "aeiou"
+vowels_data = {}.fromkeys(vowels, 0) 
+totalvowelcount = 0
+
+for i in sentence:
+  if i in vowels:
+    vowels_data[i] += 1
+    totalvowelcount += 1
+
+print("totalvowels : ", totalvowelcount)
