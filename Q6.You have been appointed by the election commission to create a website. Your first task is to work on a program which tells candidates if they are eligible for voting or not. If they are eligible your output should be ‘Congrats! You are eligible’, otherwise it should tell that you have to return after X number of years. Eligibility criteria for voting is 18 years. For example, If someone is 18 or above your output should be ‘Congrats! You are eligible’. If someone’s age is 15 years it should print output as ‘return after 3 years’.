@@ -1,0 +1,7 @@
+# Coding
+cand_age = int(input("enter the age : "))
+if cand_age >= 18:
+  print("Congrats! You are Eligible")
+else:
+  cand_age = 18 - cand_age
+  print("retun after : ",  cand_age , "years")
